@@ -2,7 +2,7 @@
 
 A web-based Cloud Security Posture Management system that continuously monitors and identifies misconfigurations across cloud platforms like AWS, Azure, and GCP.
 The tool helps users detect security issues, view compliance status, and get recommendations — all from a unified dashboard.
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🧭 Overview
 
 The CSPM tool is designed to simplify cloud security monitoring by:
@@ -14,7 +14,7 @@ Detecting non-compliant or risky settings.
 Displaying real-time results in a clean dashboard.
 
 Providing automated recommendations and reports.
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🚀 Features
 
 ✅ Multi-Cloud Integration – Connect AWS, Azure, and GCP accounts securely.
@@ -28,7 +28,7 @@ Providing automated recommendations and reports.
 ✅ Security Recommendations – Fix issues using smart remediation tips.
 
 ✅ Role-Based Access – Admin and user-level permissions.
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🧱 Tech Stack
 | Layer | Technology |
 | --- | --- |
