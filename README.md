@@ -18,10 +18,15 @@ Providing automated recommendations and reports.
 🚀 Features
 
 ✅ Multi-Cloud Integration – Connect AWS, Azure, and GCP accounts securely.
+
 ✅ Automated Scans – Identify misconfigurations in S3 buckets, IAM policies, open ports, etc.
+
 ✅ Compliance Dashboard – Visualize your overall compliance percentage.
+
 ✅ Detailed Reports – Export reports in PDF/CSV formats.
+
 ✅ Security Recommendations – Fix issues using smart remediation tips.
+
 ✅ Role-Based Access – Admin and user-level permissions.
 
 🧱 Tech Stack
