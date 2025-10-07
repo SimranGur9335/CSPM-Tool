@@ -25,10 +25,11 @@ Providing automated recommendations and reports.
 ✅ Role-Based Access – Admin and user-level permissions.
 
 🧱 Tech Stack
-Layer	Technology
-Frontend	React.js, Tailwind CSS
-Backend	FastAPI (Python)
-Database	PostgreSQL / MongoDB
-Cloud SDKs	boto3 (AWS), azure-mgmt, google-cloud
-Auth	JWT-based Authentication
-Deployment	Docker + Render / AWS EC2
+| Layer | Technology |
+| --- | --- |
+| **Frontend** | React.js, Tailwind CSS |
+| **Backend** | FastAPI (Python) |
+| **Database** | PostgreSQL / MongoDB |
+| **Cloud SDKs** | boto3 (AWS), azure-mgmt, google-cloud |
+| **Auth** | JWT-based Authentication |
+| **Deployment** | Docker + Render / AWS EC2 |
