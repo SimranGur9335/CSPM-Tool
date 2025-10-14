@@ -1,0 +1,20 @@
+{
+  "s3": [
+    {"name": "public-bucket", "acl": "public-read", "encryption": false},
+    {"name": "private-bucket", "acl": "private", "encryption": true}
+  ],
+  "security_groups": [
+    {"id": "sg-123", "inbound": [{"port": "22", "cidr": "0.0.0.0/0"}]}
+  ],
+  "iam_users": [
+    {"username": "old-user", "last_used_days": 120, "mfa_enabled": false},
+    {"username": "good-user", "last_used_days": 5, "mfa_enabled": true}
+  ],
+  "rds_instances": [
+    {"id": "db-1", "publicly_accessible": true, "storage_encrypted": false, "has_snapshot": false}
+  ],
+  "cloudtrail": {"enabled": false},
+  "vpcs": [{"id": "vpc-1", "is_default": true}],
+  "backups_enabled": false,
+  "root_account": {"last_used_days": 2}
+}
