@@ -1,0 +1,13 @@
+check_id,title,severity,message,resource
+S3-001,Public S3 bucket,HIGH,Bucket 'public-bucket' appears public (acl='public-read').,public-bucket
+S3-002,Unencrypted storage,MEDIUM,S3 bucket 'public-bucket' has no encryption enabled.,public-bucket
+RDS-001,Unencrypted database storage,HIGH,RDS instance 'db-1' storage not encrypted.,db-1
+SG-001,Open security group,HIGH,Security group 'sg-123' has inbound 22 open to 0.0.0.0/0.,sg-123
+IAM-001,Unused IAM user / access key,MEDIUM,IAM user 'old-user' appears unused for 120 days.,old-user
+IAM-002,MFA not enabled,HIGH,IAM user 'old-user' does not have MFA enabled.,old-user
+ROOT-001,Root account used recently,CRITICAL,Root account used 2 days ago - consider using IAM instead.,root
+RDS-002,Publicly accessible database,CRITICAL,RDS instance 'db-1' is publicly accessible.,db-1
+CT-001,CloudTrail disabled,HIGH,CloudTrail (audit logs) appears disabled in this account.,
+VPC-001,Default VPC in use,LOW,Default VPC 'vpc-1' exists - verify resource placement.,vpc-1
+BK-001,Backups disabled,HIGH,Backups or snapshots are not enabled for resources.,
+BK-002,RDS snapshot missing,MEDIUM,RDS instance 'db-1' has no recent snapshot.,db-1
